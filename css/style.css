@@ -1,0 +1,106 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  font-family: Arial;
+  background-color: #f7f7f7;
+}
+
+/* Cabeçalho */
+.header{
+  font-size: 20px;
+  margin: 50px;
+}
+
+.itens{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header h1{
+  text-align: center;
+  margin: 40px;
+}
+
+.itens a{
+  text-decoration: none;
+  color: black;
+  background-color: #fefefe;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
+
+/* Área Principal */
+.main{
+  display: grid;
+  max-width: auto 1000px;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10px 90px;
+}
+
+.traco{
+  background-color: #ee2211;
+  height: 4px;
+  width: 80px;
+  position: relative;
+  right: -80px;
+  top: -55px;
+}
+.leftside{
+  display: grid;
+  background-color: #fefefe;
+  padding: 40px;
+  place-items: end;
+}
+
+.leftside p{
+  text-align: end;
+  margin: 0px;
+}
+
+.leftside a{
+  text-decoration: none;
+  color: #fefefe;
+  background-color: #ee2211;
+  padding: 15px 30px;
+  border-radius: 4px;
+  margin: 0px;
+}
+
+.bicicleta img{
+  max-width: 100%;
+}
+
+.vantagens h1{
+  color: #c6c6c6;
+  margin: 0px 20px;
+  top: 120px;
+  text-align: end;
+  font-size: 64px;
+  padding: 150px 0px;
+}
+
+.descricao{
+  background-color: #fefefe;
+  padding: 50px;
+}
+
+.icontxt img{
+  position: relative;
+  top: 30px;
+  left: -35px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+  padding: 20px;
+  background-color: #fefefe;
+}
+
+footer p{
+  text-align: center;
+}
